@@ -1,0 +1,115 @@
+================================================================================
+              KẾT QUẢ BENCHMARK TRUY XUẤT CHÍNH THỨC (NHÓM T020)
+   Sinh viên: Lâm Hải Dương (MSSV: 2A202602676)
+   Chủ đề: Chính sách bảo hành & quy định niêm yết bán hàng TikTok Shop
+   Chiến lược: RecursiveChunker (chunk_size=500)
+   Embedding Model: text-embedding-3-small (dim: 1536)
+   Tổng số tài liệu: 5 | Tổng số chunk: 603
+================================================================================
+
+================================================================================
+CÂU HỎI Q1: Theo quy chế TikTok Shop, người bán phải thực hiện bảo hành và bảo trì sản phẩm theo thông tin nào?
+Filter: None
+Tài liệu chuẩn (Expected Doc): tiktok-quy-che-bao-hanh
+Đáp án chuẩn (Gold Answer):
+  Người bán phải bảo hành và bảo trì theo thông tin mà họ đã cung cấp và hiển thị khi niêm yết sản phẩm trên TikTok Shop. Nếu sản phẩm có áp dụng bảo hành hoặc bảo trì, người bán phải nhận sản phẩm và thực hiện theo đúng thông tin đã niêm yết.
+Điểm đánh giá câu này: 2/2 điểm
+
+TOP-3 CHUNKS TRUY XUẤT:
+  [1] Score: 0.8043 | ID: tiktok-quy-che-bao-hanh#22 | Doc: tiktok-quy-che-bao-hanh | Chunk: #22 [GOLD MATCH]
+      Preview: Quy trình bảo hành và bảo trì sản phẩm sẽ như sau:  #### Trách nhiệm của Người Bán - Người Bán phải thực hiện việc bảo hành và bảo trì Sản Phẩm theo thông tin bảo hành và bảo trì sản phẩm mà Người Bán đã cung cấp và hiển...
+  [2] Score: 0.7439 | ID: tiktok-quy-che-bao-hanh#0 | Doc: tiktok-quy-che-bao-hanh | Chunk: #0 [GOLD MATCH]
+      Preview: # Quy trình bảo hành và bảo trì trên TikTok Shop  Chính sách cửa hàng TikTok tại Việt Nam  17/08/2026  **Thông tin Nhà vận hành:** - **Đơn vị vận hành:** TikTok Pte. Ltd. - **Địa chỉ:** 1 Raffles Quay, #26-10, Singapore ...
+  [3] Score: 0.7333 | ID: tiktok-quy-che-bao-hanh#24 | Doc: tiktok-quy-che-bao-hanh | Chunk: #24 [GOLD MATCH]
+      Preview: #### Trách nhiệm của TikTok - TikTok không chịu trách nhiệm về việc bảo hành và bảo trì Sản Phẩm do Người Bán bán trên TikTok Shop. - Trong trường hợp Người Mua cần bất kỳ hỗ trợ nào hoặc muốn khiếu nại Người Bán do Ngườ...
+
+================================================================================
+CÂU HỎI Q2: Thông tin đăng bán sản phẩm bị coi là sai lệch nếu không chính xác hoặc không thể xác minh về những nhóm nội dung nào?
+Filter: None
+Tài liệu chuẩn (Expected Doc): tiktok-thong-tin-bao-hanh-sai-lech
+Đáp án chuẩn (Gold Answer):
+  Các nhóm nội dung gồm: cam kết hoặc chính sách bảo hành; vận chuyển, giao hàng, đổi trả, hoàn tiền hoặc dịch vụ khách hàng; thông tin về người bán như quyền sở hữu trí tuệ; và hình ảnh hoặc mô tả sản phẩm.
+Điểm đánh giá câu này: 2/2 điểm
+
+TOP-3 CHUNKS TRUY XUẤT:
+  [1] Score: 0.7037 | ID: tiktok-thong-tin-bao-hanh-sai-lech#1 | Doc: tiktok-thong-tin-bao-hanh-sai-lech | Chunk: #1 [GOLD MATCH]
+      Preview: Trước hết, thông tin đăng bán sản phẩm của bạn phải mô tả sản phẩm một cách chính xác và trung thực. Điều này có nghĩa là thông tin đăng bán không được chứa bất kỳ thông tin không chính xác, không đầy đủ, không thể xác m...
+  [2] Score: 0.6925 | ID: tiktok-quy-che-bao-hanh#338 | Doc: tiktok-quy-che-bao-hanh | Chunk: #338
+      Preview: Đăng bán sản phẩm không được chứa nội dung hoặc hình ảnh giật gân/gây sốc có thể gây khó chịu cho người xem. Dưới đây là một số hướng dẫn để người bán tuân theo. Đăng bán sản phẩm không được hiển thị hình ảnh máu me, khủ...
+  [3] Score: 0.6790 | ID: tiktok-huong-dan-dang-ban-bao-hanh#74 | Doc: tiktok-huong-dan-dang-ban-bao-hanh | Chunk: #74
+      Preview: - Trang thông tin sản phẩm chỉ được có thông tin của một sản phẩm. Hành động niêm yết nhiều sản phẩm trong một trang thông tin bị nghiêm cấm. - Không được phép đăng sản phẩm trùng lặp, ví dụ: mỗi sản phẩm chỉ có thể có m...
+
+================================================================================
+CÂU HỎI Q3: Mô tả, hình ảnh và các thuộc tính sản phẩm do người bán cung cấp phải đáp ứng những yêu cầu nào?
+Filter: None
+Tài liệu chuẩn (Expected Doc): tiktok-huong-dan-dang-ban-bao-hanh
+Đáp án chuẩn (Gold Answer):
+  Mô tả và hình ảnh phải phù hợp với sản phẩm thực tế, không được gây hiểu lầm. Các thuộc tính phải đầy đủ, chính xác, phù hợp với mô tả, tên và hình ảnh trên trang sản phẩm, đồng thời đúng với sản phẩm khách hàng thực nhận.
+Điểm đánh giá câu này: 1/2 điểm
+
+TOP-3 CHUNKS TRUY XUẤT:
+  [1] Score: 0.7503 | ID: tiktok-quy-che-bao-hanh#362 | Doc: tiktok-quy-che-bao-hanh | Chunk: #362
+      Preview: Mô tả sản phẩm cho phép người bán cung cấp thêm thông tin về sản phẩm. Khách hàng phải nhận được tất cả thông tin mà họ có thể mong đợi một cách hợp lý từ người bán để đưa ra quyết định mua hàng sáng suốt. Người bán cũng...
+  [2] Score: 0.6990 | ID: tiktok-huong-dan-dang-ban-bao-hanh#53 | Doc: tiktok-huong-dan-dang-ban-bao-hanh | Chunk: #53 [GOLD MATCH]
+      Preview: Mô tả sản phẩm cho phép người bán cung cấp thêm thông tin về sản phẩm. Khách hàng phải nhận được tất cả thông tin mà họ có thể mong đợi một cách hợp lý từ người bán để đưa ra quyết định mua hàng sáng suốt. Người bán cũng...
+  [3] Score: 0.6596 | ID: tiktok-huong-dan-dang-ban-bao-hanh#54 | Doc: tiktok-huong-dan-dang-ban-bao-hanh | Chunk: #54 [GOLD MATCH]
+      Preview: **Tất cả các mô tả, bài đăng và hình ảnh sản phẩm phải:** - Mô tả các đặc điểm chính của (các) sản phẩm (ví dụ: đặc tính, chức năng, thành phần, số lượng). - Không dưới 30 từ. - Được viết rõ ràng để giúp khách hàng đưa r...
+
+================================================================================
+CÂU HỎI Q4: Sản phẩm tân trang hoặc đã qua sử dụng có thể khai báo những hình thức bảo hành nào?
+Filter: {'audience': 'seller'}
+Tài liệu chuẩn (Expected Doc): tiktok-bao-hanh-hang-tan-trang
+Đáp án chuẩn (Gold Answer):
+  Có bốn lựa chọn: bảo hành quốc tế, bảo hành của nhà sản xuất, bảo hành của nhà cung cấp, hoặc không bảo hành.
+Điểm đánh giá câu này: 1/2 điểm
+
+TOP-3 CHUNKS TRUY XUẤT:
+  [1] Score: 0.7557 | ID: tiktok-bao-hanh-hang-tan-trang#0 | Doc: tiktok-bao-hanh-hang-tan-trang | Chunk: #0 [GOLD MATCH]
+      Preview: # Bảo hành sản phẩm tân trang hoặc đã qua sử dụng  **Nguyên tắc đăng bán sản phẩm được tân trang lại / sản phẩm đã qua sử dụng**   *Ngày cập nhật:* 11/06/2025 | *Áp dụng cho:* Việt Nam  Khi đăng bán sản phẩm được tân tra...
+  [2] Score: 0.6038 | ID: tiktok-bao-hanh-hang-tan-trang#13 | Doc: tiktok-bao-hanh-hang-tan-trang | Chunk: #13 [GOLD MATCH]
+      Preview: ### 3.2 Hình thức bảo hành  Hình thức bảo hành bao gồm: - "Bảo hành quốc tế" - "Bảo hành của nhà sản xuất" - "Bảo hành của nhà cung cấp" - "Không bảo hành"  Thông tin này có thể hướng dẫn khách hàng xác định đầu mối liên...
+  [3] Score: 0.5780 | ID: tiktok-bao-hanh-hang-tan-trang#14 | Doc: tiktok-bao-hanh-hang-tan-trang | Chunk: #14 [GOLD MATCH]
+      Preview: Thời hạn bảo hành giúp khách hàng nắm được thời gian sản phẩm đủ điều kiện được sửa chữa hoặc đổi trả. Bạn có trách nhiệm lựa chọn thời hạn bảo hành phù hợp cho sản phẩm được cung cấp. Điều này giúp cả người bán và khách...
+
+================================================================================
+CÂU HỎI Q5: Người bán có được vô hiệu tiêu chuẩn bảo hành nếu khách hàng không đánh giá 5 sao không?
+Filter: None
+Tài liệu chuẩn (Expected Doc): tiktok-dieu-khoan-bao-hanh-bat-cong
+Đáp án chuẩn (Gold Answer):
+  Không. TikTok Shop liệt kê tuyên bố vô hiệu tiêu chuẩn bảo hành vì khách hàng không đánh giá 5 sao là một ví dụ về điều khoản bán hàng không công bằng và yêu cầu người bán tránh sử dụng tuyên bố này.
+Điểm đánh giá câu này: 2/2 điểm
+
+TOP-3 CHUNKS TRUY XUẤT:
+  [1] Score: 0.8115 | ID: tiktok-dieu-khoan-bao-hanh-bat-cong#5 | Doc: tiktok-dieu-khoan-bao-hanh-bat-cong | Chunk: #5 [GOLD MATCH]
+      Preview: - "Chúng tôi sẽ vô hiệu tiêu chuẩn bảo hành của sản phẩm nếu khách hàng không đánh giá 5 sao."
+  [2] Score: 0.7843 | ID: tiktok-huong-dan-dang-ban-bao-hanh#42 | Doc: tiktok-huong-dan-dang-ban-bao-hanh | Chunk: #42
+      Preview: - "Bảo hành sản phẩm sẽ bị vô hiệu nếu khách hàng không đánh giá 5 sao."
+  [3] Score: 0.5781 | ID: tiktok-quy-che-bao-hanh#356 | Doc: tiktok-quy-che-bao-hanh | Chunk: #356
+      Preview: Người bán không được hiển thị đánh giá của khách hàng sai sự thật và không được sửa đổi bất kỳ đánh giá nào của khách hàng để quảng bá sản phẩm. Người bán không được tuyên bố rằng việc đánh giá sản phẩm của họ được thực ...
+
+================================================================================
+A/B TEST ĐÁNH GIÁ METADATA FILTER TRÊN CÂU HỎI Q4
+Query: Sản phẩm tân trang hoặc đã qua sử dụng có thể khai báo những hình thức bảo hành nào?
+--------------------------------------------------------------------------------
+Lần 1: CÓ metadata_filter={'audience': 'seller'}
+  [1] Score: 0.7557 | Doc: tiktok-bao-hanh-hang-tan-trang (Audience: seller)
+      Content: # Bảo hành sản phẩm tân trang hoặc đã qua sử dụng  **Nguyên tắc đăng bán sản phẩm được tân trang lại / sản phẩm đã qua sử dụng**   *Ngày cập nhật:* 11...
+  [2] Score: 0.6038 | Doc: tiktok-bao-hanh-hang-tan-trang (Audience: seller)
+      Content: ### 3.2 Hình thức bảo hành  Hình thức bảo hành bao gồm: - "Bảo hành quốc tế" - "Bảo hành của nhà sản xuất" - "Bảo hành của nhà cung cấp" - "Không bảo ...
+  [3] Score: 0.5780 | Doc: tiktok-bao-hanh-hang-tan-trang (Audience: seller)
+      Content: Thời hạn bảo hành giúp khách hàng nắm được thời gian sản phẩm đủ điều kiện được sửa chữa hoặc đổi trả. Bạn có trách nhiệm lựa chọn thời hạn bảo hành p...
+
+Lần 2: KHÔNG CÓ filter (chạy toàn bộ corpus)
+  [1] Score: 0.7557 | Doc: tiktok-bao-hanh-hang-tan-trang (Audience: seller)
+      Content: # Bảo hành sản phẩm tân trang hoặc đã qua sử dụng  **Nguyên tắc đăng bán sản phẩm được tân trang lại / sản phẩm đã qua sử dụng**   *Ngày cập nhật:* 11...
+  [2] Score: 0.6038 | Doc: tiktok-bao-hanh-hang-tan-trang (Audience: seller)
+      Content: ### 3.2 Hình thức bảo hành  Hình thức bảo hành bao gồm: - "Bảo hành quốc tế" - "Bảo hành của nhà sản xuất" - "Bảo hành của nhà cung cấp" - "Không bảo ...
+  [3] Score: 0.5858 | Doc: tiktok-quy-che-bao-hanh (Audience: both)
+      Content: Quy trình bảo hành và bảo trì sản phẩm sẽ như sau:  #### Trách nhiệm của Người Bán - Người Bán phải thực hiện việc bảo hành và bảo trì Sản Phẩm theo t...
+
+Nhận xét A/B:
+- Khi CÓ filter {'audience': 'seller'}, hệ thống giới hạn không gian tìm kiếm trong tập tài liệu quy định cho Người Bán, đảm bảo không bị lẫn tài liệu chung.
+- Khi KHÔNG CÓ filter, tài liệu quy chế chung đồ sộ (audience: both) có thể chen chân vào kết quả do chứa nhiều từ khóa bảo hành.
+================================================================================
+
+TỔNG KẾT ĐIỂM TRUY XUẤT: 8/10 điểm

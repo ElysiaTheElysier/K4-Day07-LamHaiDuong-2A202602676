@@ -7,6 +7,8 @@ __pycache__/
 # Environment
 .env
 .env.local
+.embedding_cache.json
+*.zip
 
 # OS
 .DS_Store

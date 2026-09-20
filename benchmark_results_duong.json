@@ -1,0 +1,247 @@
+{
+  "student_name": "Lâm Hải Dương",
+  "student_id": "2A202602676",
+  "team_id": "T020",
+  "strategy": "RecursiveChunker",
+  "parameters": {
+    "chunk_size": 500,
+    "separators": [
+      "\n\n",
+      "\n",
+      ". ",
+      " ",
+      ""
+    ]
+  },
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dim": 1536,
+  "total_documents": 5,
+  "total_chunks": 603,
+  "total_score": "8/10",
+  "results": [
+    {
+      "query_id": "Q1",
+      "query": "Theo quy chế TikTok Shop, người bán phải thực hiện bảo hành và bảo trì sản phẩm theo thông tin nào?",
+      "metadata_filter": null,
+      "expected_doc_id": "tiktok-quy-che-bao-hanh",
+      "gold_answer": "Người bán phải bảo hành và bảo trì theo thông tin mà họ đã cung cấp và hiển thị khi niêm yết sản phẩm trên TikTok Shop. Nếu sản phẩm có áp dụng bảo hành hoặc bảo trì, người bán phải nhận sản phẩm và thực hiện theo đúng thông tin đã niêm yết.",
+      "top1_doc_id": "tiktok-quy-che-bao-hanh",
+      "top1_chunk_id": "tiktok-quy-che-bao-hanh#22",
+      "top1_score": 0.8043,
+      "gold_in_top1": true,
+      "gold_in_top3": true,
+      "content_verified": true,
+      "score_awarded": 2,
+      "top3_chunks": [
+        {
+          "rank": 1,
+          "id": "tiktok-quy-che-bao-hanh#22",
+          "doc_id": "tiktok-quy-che-bao-hanh",
+          "score": 0.8043,
+          "preview": "Quy trình bảo hành và bảo trì sản phẩm sẽ như sau:  #### Trách nhiệm của Người Bán - Người Bán phải thực hiện việc bảo hành và bảo trì Sản Phẩm theo thông tin b..."
+        },
+        {
+          "rank": 2,
+          "id": "tiktok-quy-che-bao-hanh#0",
+          "doc_id": "tiktok-quy-che-bao-hanh",
+          "score": 0.7439,
+          "preview": "# Quy trình bảo hành và bảo trì trên TikTok Shop  Chính sách cửa hàng TikTok tại Việt Nam  17/08/2026  **Thông tin Nhà vận hành:** - **Đơn vị vận hành:** TikTok..."
+        },
+        {
+          "rank": 3,
+          "id": "tiktok-quy-che-bao-hanh#24",
+          "doc_id": "tiktok-quy-che-bao-hanh",
+          "score": 0.7333,
+          "preview": "#### Trách nhiệm của TikTok - TikTok không chịu trách nhiệm về việc bảo hành và bảo trì Sản Phẩm do Người Bán bán trên TikTok Shop. - Trong trường hợp Người Mua..."
+        }
+      ]
+    },
+    {
+      "query_id": "Q2",
+      "query": "Thông tin đăng bán sản phẩm bị coi là sai lệch nếu không chính xác hoặc không thể xác minh về những nhóm nội dung nào?",
+      "metadata_filter": null,
+      "expected_doc_id": "tiktok-thong-tin-bao-hanh-sai-lech",
+      "gold_answer": "Các nhóm nội dung gồm: cam kết hoặc chính sách bảo hành; vận chuyển, giao hàng, đổi trả, hoàn tiền hoặc dịch vụ khách hàng; thông tin về người bán như quyền sở hữu trí tuệ; và hình ảnh hoặc mô tả sản phẩm.",
+      "top1_doc_id": "tiktok-thong-tin-bao-hanh-sai-lech",
+      "top1_chunk_id": "tiktok-thong-tin-bao-hanh-sai-lech#1",
+      "top1_score": 0.7037,
+      "gold_in_top1": true,
+      "gold_in_top3": true,
+      "content_verified": true,
+      "score_awarded": 2,
+      "top3_chunks": [
+        {
+          "rank": 1,
+          "id": "tiktok-thong-tin-bao-hanh-sai-lech#1",
+          "doc_id": "tiktok-thong-tin-bao-hanh-sai-lech",
+          "score": 0.7037,
+          "preview": "Trước hết, thông tin đăng bán sản phẩm của bạn phải mô tả sản phẩm một cách chính xác và trung thực. Điều này có nghĩa là thông tin đăng bán không được chứa bất..."
+        },
+        {
+          "rank": 2,
+          "id": "tiktok-quy-che-bao-hanh#338",
+          "doc_id": "tiktok-quy-che-bao-hanh",
+          "score": 0.6925,
+          "preview": "Đăng bán sản phẩm không được chứa nội dung hoặc hình ảnh giật gân/gây sốc có thể gây khó chịu cho người xem. Dưới đây là một số hướng dẫn để người bán tuân theo..."
+        },
+        {
+          "rank": 3,
+          "id": "tiktok-huong-dan-dang-ban-bao-hanh#74",
+          "doc_id": "tiktok-huong-dan-dang-ban-bao-hanh",
+          "score": 0.679,
+          "preview": "- Trang thông tin sản phẩm chỉ được có thông tin của một sản phẩm. Hành động niêm yết nhiều sản phẩm trong một trang thông tin bị nghiêm cấm. - Không được phép ..."
+        }
+      ]
+    },
+    {
+      "query_id": "Q3",
+      "query": "Mô tả, hình ảnh và các thuộc tính sản phẩm do người bán cung cấp phải đáp ứng những yêu cầu nào?",
+      "metadata_filter": null,
+      "expected_doc_id": "tiktok-huong-dan-dang-ban-bao-hanh",
+      "gold_answer": "Mô tả và hình ảnh phải phù hợp với sản phẩm thực tế, không được gây hiểu lầm. Các thuộc tính phải đầy đủ, chính xác, phù hợp với mô tả, tên và hình ảnh trên trang sản phẩm, đồng thời đúng với sản phẩm khách hàng thực nhận.",
+      "top1_doc_id": "tiktok-quy-che-bao-hanh",
+      "top1_chunk_id": "tiktok-quy-che-bao-hanh#362",
+      "top1_score": 0.7503,
+      "gold_in_top1": false,
+      "gold_in_top3": true,
+      "content_verified": true,
+      "score_awarded": 1,
+      "top3_chunks": [
+        {
+          "rank": 1,
+          "id": "tiktok-quy-che-bao-hanh#362",
+          "doc_id": "tiktok-quy-che-bao-hanh",
+          "score": 0.7503,
+          "preview": "Mô tả sản phẩm cho phép người bán cung cấp thêm thông tin về sản phẩm. Khách hàng phải nhận được tất cả thông tin mà họ có thể mong đợi một cách hợp lý từ người..."
+        },
+        {
+          "rank": 2,
+          "id": "tiktok-huong-dan-dang-ban-bao-hanh#53",
+          "doc_id": "tiktok-huong-dan-dang-ban-bao-hanh",
+          "score": 0.699,
+          "preview": "Mô tả sản phẩm cho phép người bán cung cấp thêm thông tin về sản phẩm. Khách hàng phải nhận được tất cả thông tin mà họ có thể mong đợi một cách hợp lý từ người..."
+        },
+        {
+          "rank": 3,
+          "id": "tiktok-huong-dan-dang-ban-bao-hanh#54",
+          "doc_id": "tiktok-huong-dan-dang-ban-bao-hanh",
+          "score": 0.6596,
+          "preview": "**Tất cả các mô tả, bài đăng và hình ảnh sản phẩm phải:** - Mô tả các đặc điểm chính của (các) sản phẩm (ví dụ: đặc tính, chức năng, thành phần, số lượng). - Kh..."
+        }
+      ]
+    },
+    {
+      "query_id": "Q4",
+      "query": "Sản phẩm tân trang hoặc đã qua sử dụng có thể khai báo những hình thức bảo hành nào?",
+      "metadata_filter": {
+        "audience": "seller"
+      },
+      "expected_doc_id": "tiktok-bao-hanh-hang-tan-trang",
+      "gold_answer": "Có bốn lựa chọn: bảo hành quốc tế, bảo hành của nhà sản xuất, bảo hành của nhà cung cấp, hoặc không bảo hành.",
+      "top1_doc_id": "tiktok-bao-hanh-hang-tan-trang",
+      "top1_chunk_id": "tiktok-bao-hanh-hang-tan-trang#0",
+      "top1_score": 0.7557,
+      "gold_in_top1": true,
+      "gold_in_top3": true,
+      "content_verified": true,
+      "score_awarded": 1,
+      "top3_chunks": [
+        {
+          "rank": 1,
+          "id": "tiktok-bao-hanh-hang-tan-trang#0",
+          "doc_id": "tiktok-bao-hanh-hang-tan-trang",
+          "score": 0.7557,
+          "preview": "# Bảo hành sản phẩm tân trang hoặc đã qua sử dụng  **Nguyên tắc đăng bán sản phẩm được tân trang lại / sản phẩm đã qua sử dụng**   *Ngày cập nhật:* 11/06/2025 |..."
+        },
+        {
+          "rank": 2,
+          "id": "tiktok-bao-hanh-hang-tan-trang#13",
+          "doc_id": "tiktok-bao-hanh-hang-tan-trang",
+          "score": 0.6038,
+          "preview": "### 3.2 Hình thức bảo hành  Hình thức bảo hành bao gồm: - \"Bảo hành quốc tế\" - \"Bảo hành của nhà sản xuất\" - \"Bảo hành của nhà cung cấp\" - \"Không bảo hành\"  Thô..."
+        },
+        {
+          "rank": 3,
+          "id": "tiktok-bao-hanh-hang-tan-trang#14",
+          "doc_id": "tiktok-bao-hanh-hang-tan-trang",
+          "score": 0.578,
+          "preview": "Thời hạn bảo hành giúp khách hàng nắm được thời gian sản phẩm đủ điều kiện được sửa chữa hoặc đổi trả. Bạn có trách nhiệm lựa chọn thời hạn bảo hành phù hợp cho..."
+        }
+      ]
+    },
+    {
+      "query_id": "Q5",
+      "query": "Người bán có được vô hiệu tiêu chuẩn bảo hành nếu khách hàng không đánh giá 5 sao không?",
+      "metadata_filter": null,
+      "expected_doc_id": "tiktok-dieu-khoan-bao-hanh-bat-cong",
+      "gold_answer": "Không. TikTok Shop liệt kê tuyên bố vô hiệu tiêu chuẩn bảo hành vì khách hàng không đánh giá 5 sao là một ví dụ về điều khoản bán hàng không công bằng và yêu cầu người bán tránh sử dụng tuyên bố này.",
+      "top1_doc_id": "tiktok-dieu-khoan-bao-hanh-bat-cong",
+      "top1_chunk_id": "tiktok-dieu-khoan-bao-hanh-bat-cong#5",
+      "top1_score": 0.8115,
+      "gold_in_top1": true,
+      "gold_in_top3": true,
+      "content_verified": true,
+      "score_awarded": 2,
+      "top3_chunks": [
+        {
+          "rank": 1,
+          "id": "tiktok-dieu-khoan-bao-hanh-bat-cong#5",
+          "doc_id": "tiktok-dieu-khoan-bao-hanh-bat-cong",
+          "score": 0.8115,
+          "preview": "- \"Chúng tôi sẽ vô hiệu tiêu chuẩn bảo hành của sản phẩm nếu khách hàng không đánh giá 5 sao.\"..."
+        },
+        {
+          "rank": 2,
+          "id": "tiktok-huong-dan-dang-ban-bao-hanh#42",
+          "doc_id": "tiktok-huong-dan-dang-ban-bao-hanh",
+          "score": 0.7843,
+          "preview": "- \"Bảo hành sản phẩm sẽ bị vô hiệu nếu khách hàng không đánh giá 5 sao.\"..."
+        },
+        {
+          "rank": 3,
+          "id": "tiktok-quy-che-bao-hanh#356",
+          "doc_id": "tiktok-quy-che-bao-hanh",
+          "score": 0.5781,
+          "preview": "Người bán không được hiển thị đánh giá của khách hàng sai sự thật và không được sửa đổi bất kỳ đánh giá nào của khách hàng để quảng bá sản phẩm. Người bán không..."
+        }
+      ]
+    }
+  ],
+  "ab_test_q4": {
+    "query": "Sản phẩm tân trang hoặc đã qua sử dụng có thể khai báo những hình thức bảo hành nào?",
+    "with_filter": [
+      {
+        "rank": 1,
+        "score": 0.7556910139343245,
+        "doc_id": "tiktok-bao-hanh-hang-tan-trang"
+      },
+      {
+        "rank": 2,
+        "score": 0.6038351776131776,
+        "doc_id": "tiktok-bao-hanh-hang-tan-trang"
+      },
+      {
+        "rank": 3,
+        "score": 0.5779735461968585,
+        "doc_id": "tiktok-bao-hanh-hang-tan-trang"
+      }
+    ],
+    "without_filter": [
+      {
+        "rank": 1,
+        "score": 0.7556910139343245,
+        "doc_id": "tiktok-bao-hanh-hang-tan-trang"
+      },
+      {
+        "rank": 2,
+        "score": 0.6038351776131776,
+        "doc_id": "tiktok-bao-hanh-hang-tan-trang"
+      },
+      {
+        "rank": 3,
+        "score": 0.5858104178032875,
+        "doc_id": "tiktok-quy-che-bao-hanh"
+      }
+    ]
+  }
+}
