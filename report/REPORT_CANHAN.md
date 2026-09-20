@@ -2,7 +2,7 @@
 
 **Họ tên:** Lâm Hải Dương  
 **MSSV:** 2A202602676  
-**Nhóm:** Nhóm 03 — Thương Mại Điện Tử (TikTok Shop Policy)  
+**Nhóm:** Sloppers — Thương Mại Điện Tử (TikTok Shop Policy)  
 **Ngày:** 20/09/2026  
 **Chiến lược được phân công:** `RecursiveChunker`
 
